@@ -41,6 +41,7 @@ public class Main
         System.out.println("The product of " + doubleOperandA + " and " + doubleOperandB + " is " + intProduct);
 
         doubleDifference = doubleOperandA + doubleOperandB;
+        System.out.println("The difference of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
 
 
     }
