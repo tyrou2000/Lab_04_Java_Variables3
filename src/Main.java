@@ -21,7 +21,7 @@ public class Main
         System.out.println("The difference of " + intOperandA + " and " + intOperandB + " is " + intDifference);
 
         intQuotient = intOperandA / intOperandB;
-        System.out.println("The quotient of " + intOperandA + " and " + intOperandB + "is " + intQuotient);
+        System.out.println("The quotient of " + intOperandA + " and " + intOperandB + " is " + intQuotient);
 
         intModulo = intOperandA % intOperandB;
         System.out.println("The modulo of " + intOperandA + " and " + intOperandB + "is " + intModulo);
@@ -33,6 +33,8 @@ public class Main
         double doubleSum = 0;
         double doubleProduct = 0;
         double doubleDifference = 0;
+        double doubleQuotient = 0;
+        double doubleModulo = 0;
 
         doubleSum = doubleOperandA + doubleOperandB;
         System.out.println("The Sum of " + doubleOperandA + " and " + doubleOperandB + " is " + intSum);
@@ -42,6 +44,15 @@ public class Main
 
         doubleDifference = doubleOperandA + doubleOperandB;
         System.out.println("The difference of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
+
+        doubleQuotient = doubleOperandA / doubleOperandB;
+        System.out.println("The quotient of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
+
+        doubleModulo = doubleOperandA % doubleOperandB;
+        System.out.println("The modulo of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
+
+
+
 
 
     }
