@@ -21,7 +21,10 @@ public class Main
         System.out.println("The difference of " + intOperandA + " and " + intOperandB + " is " + intDifference);
 
         intQuotient = intOperandA / intOperandB;
-        System.out.println("The quotient of " + intOperandA + " and " + intOperandB + "is " + intDifference);
+        System.out.println("The quotient of " + intOperandA + " and " + intOperandB + "is " + intQuotient);
+
+        intModulo = intOperandA % intOperandB;
+        System.out.println("The modulo of " + intOperandA + " and " + intOperandB + "is " + intModulo);
 
         // rest of int statements
 
