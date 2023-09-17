@@ -51,6 +51,14 @@ public class Main
         doubleModulo = doubleOperandA % doubleOperandB;
         System.out.println("The modulo of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
 
+        int numKids = 2;
+        string isRaining = false;
+        double priceGallon = 3.62;
+        int favNum = 12;
+        double shoeSize = 9.5;
+        double bMonth = 6;
+        string fullName = Tyler Rouse;
+
 
 
 
